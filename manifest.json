@@ -1,6 +1,6 @@
 {
     "name": "Chess AI",
-    "description": "AI powered chess.",
+    "description": "AI powered Chess.",
     "lang": "en-US",
     "dir": "ltr",
     "short_name": "Chess",
@@ -13,8 +13,7 @@
     "related_applications": [
         {
             "platform": "webapp",
-            "url": "https://chessai.netlify.app/",
-            "id": "392339701203006"
+            "url": "https://chessai.netlify.app/"
         }
     ],
     "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
