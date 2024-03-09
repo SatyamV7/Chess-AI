@@ -2,7 +2,7 @@
 A chess engine by someone who doesn't know how to play chess.
 
 ## About
-Chess AI is a simple chess AI in JavaScript. 
+Chess AI is a simple AI powered chess in JavaScript.
 
 The primary concern of Chess AI is the decision-making part of the application. All functionality outside the scope of the AI are implemented using external libraries:
 - Chessboard GUI: Using the chessboard.js API
@@ -17,9 +17,11 @@ A global sum is used to keep track of black's evaluation score after each move, 
 ## How to Play?
 1. Head over to [Chess AI](https://chessai.netlify.app/)
 
-2. Play as white by dragging a piece to your desired location. The AI plays as black. The AI's minimax search depth (which is directly related to how well it will play) can be customised using the 'Search Depth (Black)' dropdown. Using a higher value will improve the AI's accuracy, but it will take longer to decide on the next move.
+2. Play as white by dragging a piece to your desired location. The AI plays as black. The AI's minimax search depth (which is directly related to how well it will play) can be customised using the 'Search Depth (Black)' under settings dropdown. Using a higher value will improve the AI's accuracy, but it will take longer to decide on the next move.
 
 3. To pit the AI against itself, click the 'Start Game' button under Computer vs. Computer. You can stop the game at any time using the 'Stop and Reset' button.
+
+4. You can also get suggested moves from AI by clicking 'Show Suggested Move (White)' checkbox under settings dropdown.
 
 ## License
 Use of this project is governed by the [MIT License](LICENSE).
