@@ -1,0 +1,74 @@
+{
+    "name": "Chess AI",
+    "description": "AI powered chess.",
+    "lang": "en-US",
+    "dir": "ltr",
+    "short_name": "Chess",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#04040f",
+    "background_color": "#04040f",
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://chessai.netlify.app/",
+            "id": "392339701203006"
+        }
+    ],
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+    "prefer_related_applications": false,
+    "features": [
+        "Cross Platform",
+        "fast",
+        "simple"
+    ],
+    "categories": [
+        "Gaming"
+    ],
+    "shortcuts": [
+        {
+            "name": "New Chess Match",
+            "url": "/",
+            "icons": [
+                {
+                    "sizes": "512x512",
+                    "src": "/assets/manifest/icon.png",
+                    "type": "image/png"
+                }
+
+            ],
+            "description": "New Chess Match"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/assets/screenshots/screenshot-1.png",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/screenshots/screenshot-2.png",
+            "sizes": "800x1280",
+            "type": "image/png"
+        }
+    ],
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "/assets/manifest/maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "/assets/manifest/icon.png",
+            "type": "image/png"
+        }
+    ],
+    "edge_side_panel": {
+        "preferred_width": 0
+    }
+}
