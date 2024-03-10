@@ -7,13 +7,14 @@
     "start_url": "/",
     "scope": "/",
     "display": "standalone",
-    "orientation": "any",
+    "orientation": "portrait",
     "theme_color": "#04040f",
     "background_color": "#04040f",
     "related_applications": [
         {
             "platform": "webapp",
-            "url": "https://chessai.netlify.app/"
+            "url": "https://chessai.netlify.app/",
+            "id": "com.chess.ai"
         }
     ],
     "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
@@ -24,7 +25,7 @@
         "simple"
     ],
     "categories": [
-        "Gaming"
+        "games"
     ],
     "shortcuts": [
         {
@@ -36,21 +37,24 @@
                     "src": "/assets/manifest/icon.png",
                     "type": "image/png"
                 }
-
             ],
             "description": "New Chess Match"
         }
     ],
     "screenshots": [
         {
-            "src": "/assets/screenshots/screenshot-1.png",
-            "sizes": "1280x800",
-            "type": "image/png"
+            "src": "/assets/manifest/screenshots/screenshot-1.png",
+            "sizes": "1920x1080",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Chess AI Desktop"
         },
         {
-            "src": "/assets/screenshots/screenshot-2.png",
-            "sizes": "800x1280",
-            "type": "image/png"
+            "src": "/assets/manifest/screenshots/screenshot-2.png",
+            "sizes": "1080x2481",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Chess AI Mobile"
         }
     ],
     "icons": [
@@ -69,5 +73,10 @@
     ],
     "edge_side_panel": {
         "preferred_width": 0
-    }
+    },
+    "id": "com.chess.ai",
+    "display_override": [
+        "standalone",
+        "window-controls-overlay"
+    ]
 }
