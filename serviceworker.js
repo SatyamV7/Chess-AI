@@ -4,8 +4,8 @@
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = 'Static_Cache v1.0.2-ProductionBuild';
-const RUNTIME = 'Dynamic_Cache v1.0.2-ProductionBuild';
+const PRECACHE = 'Static_Cache v1.0.3-ProductionBuild';
+const RUNTIME = 'Dynamic_Cache v1.0.3-ProductionBuild';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -16,7 +16,6 @@ const PRECACHE_URLS = [
     '/src/js/chess.js',
     '/src/css/main.css',
     '/lib/jquery/jquery-3.5.1.js',
-    '/lib/darkmodejs/DarkMode-v1.0.0.js',
     '/lib/chessboardjs/chessboard-1.0.0.min.js',
     '/lib/chessboardjs/chessboard-1.0.0.min.css',
     '/lib/bootstrap/js/bootstrap.bundle.min.js',

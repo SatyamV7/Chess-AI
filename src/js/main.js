@@ -1,17 +1,13 @@
-new darkMode(
-    /*Right*/'32px',
-    /*Bottom*/'1em',
-    /*Time*/'.5S',
-    /*zIndex*/'999',
-    /*Label*/'',
-)
-
-let _main = document.querySelector('main');
-let height = _main.clientHeight;
-let _height = document.body.clientHeight
-let margin = _height - height;
-let _margin = margin / 2;
-_main.style.margin = _margin + 'px 0';
+function UI() {
+    let _main = document.querySelector('main');
+    let height = _main.clientHeight;
+    let _height = document.body.clientHeight
+    let margin = _height - height;
+    let _margin = margin / 2;
+    _main.style.margin = _margin + 'px 0';
+    setTimeout(UI, 100);
+}
+UI();
 
 var STACK_SIZE = 100; // maximum size of undo stack
 
